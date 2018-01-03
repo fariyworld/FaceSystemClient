@@ -1,5 +1,8 @@
 package com.offcn.domain;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name="resultBean")
 public class ResultBean {
 
 	private String uid;
